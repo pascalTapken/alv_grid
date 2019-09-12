@@ -31,7 +31,7 @@
       </RPY_DYCATT>
       <RPY_DYCATT>
        <TYPE>CUST_CTRL</TYPE>
-       <NAME>CCONTAINER_SALV</NAME>
+       <NAME>CCONT</NAME>
        <ELEMENT_OF>SCREEN</ELEMENT_OF>
        <LINE>001</LINE>
        <COLUMN>001</COLUMN>
@@ -61,6 +61,9 @@
        <LINE>MODULE STATUS_0100.</LINE>
       </RPY_DYFLOW>
       <RPY_DYFLOW>
+       <LINE>MODULE output.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
        <LINE>*</LINE>
       </RPY_DYFLOW>
       <RPY_DYFLOW>
@@ -72,6 +75,7 @@
      </FLOW_LOGIC>
      <SPACES>
       <item>0</item>
+      <item>1</item>
       <item>1</item>
       <item>0</item>
       <item>0</item>
@@ -260,6 +264,13 @@
      <ID>R</ID>
      <ENTRY>AVL GRID Flight</ENTRY>
      <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_CARR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
     </item>
    </TPOOL>
   </asx:values>
